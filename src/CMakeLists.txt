@@ -1,6 +1,4 @@
-project(UnnamedEngine)
-
-include_directories(./)
+project(app)
 
 file(GLOB_RECURSE PROJECT_SOURCES 
     app/*.cpp 
