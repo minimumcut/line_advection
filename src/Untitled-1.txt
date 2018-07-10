@@ -1,0 +1,9 @@
+camera = bpy.context.scene.camera
+modelview_matrix = camera.matrix_world.inverted()
+render = 
+projection_matrix = camera.calc_matrix_camera(
+        render.resolution_x,
+        render.resolution_y,
+        render.pixel_aspect_x,
+        render.pixel_aspect_y,
+        )
